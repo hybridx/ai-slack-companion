@@ -1,0 +1,27 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "Slack Client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "lint": "eslint --ext .js .",
+    "dev": "nodemon app.js"
+  },
+  "author": "hybridx",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.17.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "pino": "^8.17.2",
+    "pino-pretty": "^10.3.1"
+  },
+  "devDependencies": {
+    "eslint": "~8.56.0",
+    "eslint-config-airbnb-base": "~15.0.0",
+    "eslint-plugin-import": "~2.29.1",
+    "nodemon": "^3.0.2"
+  }
+}
