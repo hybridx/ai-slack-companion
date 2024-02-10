@@ -10,12 +10,12 @@ Want to build your dream AI companion who's always there to chat, answer your qu
 
 ### Getting Started
 
-1. **Clone the repository:** `git clone [https://github.com/hybridx/ai-slack-bot-companion.git](https://github.com/hybridx/ai-slack-companion)`
-2. **Install dependencies:** `npm install`
-3. **Create a Slack App:** Follow the official guide: [https://api.slack.com/start/quickstart](https://api.slack.com/start/quickstart)
+1. **Clone the repository:** sh```git clone [git@github.com:hybridx/ai-slack-companion.git](https://github.com/hybridx/ai-slack-companion.git)```
+3. **Install dependencies:**  sh```npm install```
+4. **Create a Slack App:** Follow the official guide: [https://api.slack.com/start/quickstart](https://api.slack.com/start/quickstart)
     * Get your bot token and set environment variables.
-4. **Run in development:** `npm run dev`
-5. **Start for production:** `npm start` (set production environment variables)
+5. **Run in development:** sh```npm run dev```
+6. **Start for production:** `npm start` (set production environment variables)
 
 ### Contributing
 
