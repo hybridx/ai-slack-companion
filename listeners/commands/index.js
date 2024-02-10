@@ -1,5 +1,5 @@
-const { sampleCommandCallback } = require('./sample-command');
+const { pingCommandCallback } = require('./pingCommand');
 
 module.exports.register = (app) => {
-  app.command('/sample-command', sampleCommandCallback);
+  app.command('/ping', pingCommandCallback);
 };
